@@ -18,7 +18,11 @@ int main() {
 	
 	double average_grade = (grade1+grade2+grade3+grade4+grade5)/5.0;
 	
-	if (average_grade >= 90)
+	if (average_grade > 100)
+	{
+		cout << "Invalid amount" << endl;
+	}
+	else if (average_grade >= 90 && average_grade < 100)
 	{
 		cout << "Grade A" << endl;
 	}
